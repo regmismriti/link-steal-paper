@@ -112,6 +112,10 @@ python mlp_attack.py --dataset cora --node_topology 1-hop --edge_feature all --t
 python mlp_attack.py --dataset cora --node_topology 2-hop --edge_feature all --target_model graphsage --shadow_model graphsage --lr 0.006 --optim adam --scheduler --gpu -1 --all
 
 ```
+# Experimental Results
+
+![Results Overview](result/results.pdf)
+
 # Citations
 ```
 @article{wu2024link,
